@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Me - Kristian Petrov</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;400&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="site-header">
+    <div class="dropdown">
+      <button class="dropbtn" id="menuBtn">
+        <span class="hamburger"></span>
+        <span class="hamburger"></span>
+        <span class="hamburger"></span>
+      </button>
+      <div class="dropdown-content" id="dropdownContent">
+        <a href="index.html"><strong>Kristian Petrov</strong></a>
+        <a href="about.html">About Me</a>
+        <a href="contact.html">Contact Me</a>
+        <a href="skills.html">My Skills</a>
+        <a href="projects.html">My Projects</a>
+      </div>
+    </div>
+  </header>
+  <main>
+    <div class="contact-container">
+      <div class="contact-info reveal">
+        <h2>Contact Info</h2>
+        <div class="info-block">
+          <span class="info-title">Let's Talk</span>
+          <span class="info-detail"><a href="tel:0877513104">0877513104</a></span>
+        </div>
+        <div class="info-block">
+          <span class="info-title">Email me</span>
+          <span class="info-detail"><a href="https://mail.google.com/mail/?view=cm&to=normalenkiko@gmail.com" target="_blank">normalenkiko@gmail.com</a></span>
+        </div>
+      </div>
+      <div class="contact-form-section reveal" data-delay="120">
+        <h1>Contact Us</h1>
+        <form class="contact-form" action="#" method="post">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" required>
+
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required>
+
+          <label for="phone">Phone</label>
+          <input type="tel" id="phone" name="phone" required>
+
+          <label for="subject">Subject</label>
+          <input type="text" id="subject" name="subject" required>
+
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="4" required></textarea>
+
+          <button type="submit" class="send-btn">SEND</button>
+        </form>
+      </div>
+    </div>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html> 
